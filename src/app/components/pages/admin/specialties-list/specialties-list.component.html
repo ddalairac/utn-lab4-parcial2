@@ -1,0 +1,4 @@
+<p>specialties-list</p>
+<div *ngIf="specialtiesList">
+    <app-table [objList]="specialtiesList" [actions]="actions" (action)="onTableEvent($event)"></app-table>
+</div>

@@ -1,0 +1,9 @@
+<p>users-list works!</p>
+
+<div *ngIf="users">
+    <app-table [objList]="users" [actions]="actions" [hideCols]="hideCols" (action)="onTableEvent($event)"></app-table>
+</div>
+<button mat-fab color aria-label="nuevo usuario" (click)="onNewUser()">
+<!-- <button mat-icon-button aria-label="nuevo usuario" (click)="onNewUser()"> -->
+    <i class="fas fa-plus"></i>
+</button>

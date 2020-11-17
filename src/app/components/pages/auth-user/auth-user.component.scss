@@ -1,0 +1,16 @@
+@import "src/assets/scss/variables";
+:host {
+    background-image: url(/assets/img/clinic-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-grow: 2; 
+}
+
+// @media screen and (max-width: $tablet-min-w) {
+//     .card.page {
+//         padding: 20px 30px;
+//     }
+// }

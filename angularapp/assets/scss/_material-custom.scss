@@ -1,0 +1,73 @@
+@import "src/assets/scss/variables";
+
+.checkbox-field{
+    height: 65px;
+    padding-top: 17px;
+    .mat-hint {
+        font-size: 75%; 
+        top: -0.4em;
+        position: relative;
+    }
+}
+// .mat-button-base {
+//     color: $textColor;
+
+//     &.mat-primary {
+//         color: $acent;
+//     }
+//     &.mat-secondary {
+//         color: $warn;
+//     }
+// }
+// .mat-raised-button {
+//     color: $textColor;
+
+//     &.mat-primary {
+//         color: white;
+//         background: $acent;
+//     }
+//     &.mat-secondary {
+//         color: white;
+//         background: $warn;
+//     }
+// }
+// .mat-mini-fab {
+//     color: $textColor;
+//     &.mat-primary {
+//         color: white;
+//         background: $acent;
+//     }
+//     &.mat-secondary {
+//         color: white;
+//         background: $warn;
+//     }
+// }
+// .mat-icon-button{
+//     &:focus {
+//         outline:none!important;
+//         background: rgba(0, 0, 0, 0.25);
+//     }
+// }
+
+
+
+// // // }
+// // .mat-flat-button {
+// //     &.mat-primary,
+// //     .mat-raised-button.mat-primary,
+// //     .mat-fab.mat-primary,
+// //     .mat-mini-fab.mat-primary {
+// //         background: $acent;
+// //     }
+// // }
+// // .mat-flat-button.mat-secondary,
+// // .mat-raised-button.mat-secondary,
+// // .mat-fab.mat-secondary,
+// // .mat-mini-fab.mat-secondary {
+// //     background: $warn;
+// // }
+
+
+.mat-form-field {
+    width: 100%;
+}
